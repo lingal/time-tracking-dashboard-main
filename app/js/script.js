@@ -4,9 +4,8 @@ const cardsEl = document.querySelector('.activity-cards');
 let arr = [];
 let html = '';
 
-
-
-fetch('/data.json')
+window.addEventListener('DOMContentLoaded', function () {
+  fetch('/data.json')
   .then(function (response) {
     return response.json();
   }).then(function (jsonData) {
@@ -41,6 +40,10 @@ fetch('/data.json')
     cardsEl.innerHTML = html;
 
   })
+  
+})
+
+
 
 
 btns.forEach(btn => {

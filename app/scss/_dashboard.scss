@@ -64,6 +64,8 @@
     }
 
     @include for-desktop {
+      max-width: none;
+      margin-inline: 0;
       height: 7rem;
       padding: 1.25em 1.75em 0 1.75em;
       flex-direction: column;

@@ -111,9 +111,10 @@ btns.forEach(btn => {
 
     btns.forEach(btn => {
       if (btn.innerText.toLowerCase() === currentItem) {
-        btn.style.color = '#fff'
+        btn.classList.add('nav-item__active');
+        console.log(btn.classList);
       } else {
-        btn.style.color = 'hsl(235, 45%, 61%)'
+        btn.classList.remove('nav-item__active');
       }
     })
   })

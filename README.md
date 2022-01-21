@@ -27,7 +27,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw/hub/timetrackingdashboard-bgXWw4HI1)
 - Live Site URL: [Add live site URL here](https://trusting-sinoussi-be9572.netlify.app/)
 
 ## My process

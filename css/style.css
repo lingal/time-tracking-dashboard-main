@@ -39,7 +39,7 @@ body {
 .main {
   gap: 1.5rem;
 }
-@media (min-width: 34em) {
+@media (min-width: 43em) {
   .main {
     grid-template-rows: repeat(2, auto);
   }
@@ -93,6 +93,12 @@ body {
   padding: 1.75rem 2.25rem;
   justify-content: space-between;
 }
+@media (min-width: 43em) {
+  .profile-card nav {
+    max-width: 70%;
+    margin-inline: auto;
+  }
+}
 @media (min-width: 63em) {
   .profile-card nav {
     height: 7rem;
@@ -106,6 +112,11 @@ body {
   border: none;
   background: transparent;
   color: #6f76c8;
+}
+@media (min-width: 43em) {
+  .profile-card nav .nav-item {
+    font-size: 1.25rem;
+  }
 }
 @media (min-width: 63em) {
   .profile-card nav .nav-item {
@@ -122,7 +133,7 @@ body {
 .activity-cards {
   gap: 1.5rem;
 }
-@media (min-width: 34em) {
+@media (min-width: 43em) {
   .activity-cards {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -207,6 +218,11 @@ body {
 }
 .activity-cards .activity-card .card-content__bottom p:nth-child(2) {
   color: #bdc1ff;
+}
+@media (max-width: 23em) {
+  .activity-cards .activity-card .card-content__bottom p:nth-child(2) {
+    font-size: 3.5vw;
+  }
 }
 @media (min-width: 63em) {
   .activity-cards .activity-card .card-content__bottom p:nth-child(2) {

@@ -1,5 +1,14 @@
+
+@mixin for-small-screen {
+  @media (max-width: 23em) { // for small screen ups to 366px width
+    @content;
+  }
+}
+
+
+
 @mixin for-tablet {
-  @media (min-width: 34em) {
+  @media (min-width: 43em) {
     @content;
   }
 }
